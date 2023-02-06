@@ -18,7 +18,7 @@ This is a multiline comment
 
 //Arthemtics inside the console
 
-console.log(2 + 3);  //addition
+console.log(2 + 3);  //addition.
 console.log(3 -2);   //Subtraction
 console.log(3/3);     // divison
 console.log(3*3);     //Multiplication
