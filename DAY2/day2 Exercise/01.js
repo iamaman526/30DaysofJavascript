@@ -25,33 +25,32 @@
 //25. Use repeat() method to print 30 Days Of JavaScript 2 times.
 
 var challenge = " 30 Days Of JavaScript";
-var company = 'Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon';
-var sentence = "You cannot end a sentence with because because because is a conjunction"
-var string = '30 Days of';
-
+var company = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon";
+var sentence =
+  "You cannot end a sentence with because because because is a conjunction";
+var string = "30 Days of";
 
 console.log(challenge.length);
 console.log(challenge.toUpperCase());
 console.log(challenge.toLowerCase());
-console.log(challenge.substring(0,1))
-console.log(challenge.substring(3,21))
-console.log(challenge.includes('Script'));
+console.log(challenge.substring(0, 1));
+console.log(challenge.substring(3, 21));
+console.log(challenge.includes("Script"));
 console.log(challenge.split());
-console.log(challenge.split(''));
-console.log(company.split(','));
-console.log(challenge.replace('JavaScript', 'python'));
+console.log(challenge.split(""));
+console.log(company.split(","));
+console.log(challenge.replace("JavaScript", "python"));
 console.log(challenge.charAt(15));
-console.log(challenge.charCodeAt('J'));
-console.log(challenge.indexOf('a'));
-console.log(challenge.lastIndexOf('a'));
-console.log(sentence.indexOf('because'));
-console.log(sentence.lastIndexOf('because'));
-console.log(sentence.search('because'));
-console.log(sentence.search('because'));
+console.log(challenge.charCodeAt("J"));
+console.log(challenge.indexOf("a"));
+console.log(challenge.lastIndexOf("a"));
+console.log(sentence.indexOf("because"));
+console.log(sentence.lastIndexOf("because"));
+console.log(sentence.search("because"));
+console.log(sentence.search("because"));
 console.log(challenge.trim());
 console.log(challenge.startsWith(" 30"));
 console.log(challenge.endsWith("Script"));
-console.log(challenge.match('a'));
-console.log(string.concat( ' JavaScript'))
+console.log(challenge.match("a"));
+console.log(string.concat(" JavaScript"));
 console.log(challenge.repeat(2));
-
