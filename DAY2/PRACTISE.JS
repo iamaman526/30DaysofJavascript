@@ -7,3 +7,5 @@ let word = 'JavaScript'
 word[0]='d';
 
 console.log(word);
+
+console.log(Math.random());
