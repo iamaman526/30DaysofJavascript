@@ -34,7 +34,7 @@ let text =
 let extractvalue = text.match(/\d+/g); //using regular expression to extract digits and match method to extract the value in a array.
 // console.log(extractvalue);
 
-let income =  extractvalue.map(Number);
+let income =  extractvalue.map(Number);  
 let sumofvalue = income[0] *12 + income[1]
 + 12 * income[2];
 console.log(`total income is ${sumofvalue} on a yearly basis`);
