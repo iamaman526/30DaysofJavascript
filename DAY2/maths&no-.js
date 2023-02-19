@@ -66,7 +66,7 @@ console.log(PI)                            // 3.141592653589793
 // console.log(Math.LN2)           // 0.6931471805599453
 // console.log(Math.LN10)          // 2.302585092994046
 
-// // Trigonometry
+// // Trigonometr
 // Math.sin(0)
 // Math.sin(60)
 
