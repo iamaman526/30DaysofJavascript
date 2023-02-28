@@ -126,13 +126,19 @@ console.log(!(pyt.includes("on") == jarg.includes("on")));
 // -----------------------------------------------------------------
 
 // 7. Use the Date object to do the following activities
+const now = new Date();
 
 // What is the year today?
-let findyear = new Date().getFullYear()
-console.log(findyear);
+ console.log(now.getFullYear());
 // What is the month today as a number?
+console.log(now.getMonth());
 // What is the date today?
+console.log(now.getDate());
 // What is the day today as a number?
+console.log(now.getDay());
 // What is the hours now?
+console.log(now.getHours());
 // What is the minutes now?
-// Find out the numbers of seconds elapsed from January 1, 1970 to now.
+console.log(now.getMinutes());
+// Find out the numbers of seconds elapsed from January 1 , 1970 to now.
+console.log(now.getTime());
