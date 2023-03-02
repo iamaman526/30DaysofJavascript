@@ -21,14 +21,24 @@
 
 //3. Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
 
-let length = parseInt(prompt("enter the length"))
-console.log(length);
-let width = parseInt(prompt("enter the width"));
-console.log(width);
+// let length = parseInt(prompt("enter the length"))
+// console.log(length);
+// let width = parseInt(prompt("enter the width"));
+// console.log(width);
 
-const area = length * width ;
-const perimeter = 2* (length + width)
-console.log(alert(`The area of the rectangel is : ${area} and the perimeter of the rectange is :${perimeter}`));
+// const area = length * width ;
+// const perimeter = 2* (length + width)
+// console.log(alert(`The area of the rectangel is : ${area} and the perimeter of the rectange is :${perimeter}`));
 
+//4. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14
+
+const pi = 3.14;
+
+let r = parseInt(prompt("enter the radius of the circle :"));
+let radius = r;
+console.log(radius);
+const area = parseFloat(pi * r*r);
+const circumference = parseFloat(2 * pi *r);
+console.log(alert(`the area of the circle is : ${area} and the circumferce is : ${circumference}`));
 
 
