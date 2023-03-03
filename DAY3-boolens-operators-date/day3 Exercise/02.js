@@ -149,8 +149,50 @@ if (yearborn.toString().length !== 4) {
 
 //14. Write a script that prompt the user to enter number of years. Calculate the number of seconds a person can live. Assume some one lives just hundred years
 
-let time = new Date
-let yearstolive = parseInt(prompt("enter the number of years you want to live"))
-let secondsoflife = yearstolive.getSeconds
+let secondstolive = parseInt(
+  prompt("enter the number of years you want to live")
+);
+let secondsinayear = 365 * 24 * 60 * 60;
 
- 
+if (isNaN(secondstolive)) {
+  console.log("enter valid no of years");
+}
+else{
+    secondstolive = secondsinayear * secondstolive
+
+}
+
+// 15. Create a human readable time format using the Date time object
+
+// YYYY-MM-DD HH:mm - a
+// DD-MM-YYYY HH:mm - b
+// DD/MM/YYYY HH:mm - c
+
+const readabledate = new Date()
+
+ const year1 = readabledate.getFullYear();
+ const month1 = readabledate.getMonth()+ 1;
+ const Date1  = readabledate.getDate();
+ const hour1  = readabledate.getHours();
+ const minutes1 = readabledate.getMinutes();
+
+ console.log(`${year1}-${month1}-${Date1} ${hour1}:${minutes1}`);
+// DD-MM-YYYY HH:mm - b
+
+ const year2 = readabledate.getFullYear();
+ const month2 = readabledate.getMonth() +1;
+ const Date2  = readabledate.getDate();
+ const hour2  = readabledate.getHours();
+ const minutes2 = readabledate.getMinutes();
+
+ console.log(`${Date2 }-${month2}-${year2} ${hour2}:${minutes2}`);
+
+ // DD/MM/YYYY HH:mm - c
+
+ const year3 = readabledate.getFullYear();
+ const month3 = readabledate.getMonth() + 1;
+ const Date3  = readabledate.getDate();
+ const hour3  = readabledate.getHours();
+ const minutes3 = readabledate.getMinutes();
+
+ console.log(`${Date3 }/${month3}/${year3} ${hour3}:${minutes3}`);
