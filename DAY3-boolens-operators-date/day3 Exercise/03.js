@@ -6,8 +6,8 @@
 
 const readabledate = new Date()
 
- const year1 = (readabledate.getFullYear() + "0").slice(-2);
- const month1 = ( "0" +readabledate.getMonth()+ 1).slice(-2);
+ const year1 = (readabledate.getFullYear() + "0");
+ const month1 = ( "0" + (readabledate.getMonth() + 1)) .slice((-2))
  const Date1  = ( "0" +readabledate.getDate()).slice(-2);
  const hour = ("0" + readabledate.getHours()).slice(-2); // add leading zero to hour  //last digit move out
  const minutes1 = ( "0"+readabledate.getMinutes()).slice(-2);
