@@ -26,19 +26,21 @@ if (yearborn.toString().length !== 4) {
   }
 }
 
-// Compare the values of myAge and yourAge using if … else. Based on the comparison and log the result to console stating who is older (me or you). Use prompt(“Enter your age:”) to get the age as input.
+//2 Compare the values of myAge and yourAge using if … else. Based on the comparison and log the result to console stating who is older (me or you). Use prompt(“Enter your age:”) to get the age as input.
 
+const yourAge = parseInt(prompt("Enter your age:"));
+if (isNaN(yourAge) || yourAge <= 0) {
+  alert("enter correct age");
+} else {
+  const myAge = 25;
+  let aman = myAge - yourAge;
+  let stranger = yourAge - myAge;
 
-let yourAge = parseInt(prompt("enter your age"));
-
-let myage =  25;
-let agediff = myage - yourAge ;
-
-if (myage > yourAge) {
-  console.log(`i am ${agediff} years older than you`);
-  
+  if (myAge > yourAge) {
+    console.log(`I'm older than you by ${aman} years.`);
+  } else if (myAge < yourAge) {
+    console.log(`You're older than me by ${stranger} years.`);
+  } else {
+    console.log("We're the same age.");
+  }
 }
-else(myage < yourAge)
-  console.log(`you are ${agediff} years older than me`)
-
-  
