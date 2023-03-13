@@ -44,3 +44,24 @@ if (isNaN(yourAge) || yourAge <= 0) {
     console.log("We're the same age.");
   }
 }
+
+// 3 If a is greater than b return 'a is greater than b' else 'a is less than b'. Try to implement it in to ways
+
+// using if else
+
+// let a = 10;
+// let b = parseInt(prompt("enter b "));
+
+if(a>b){
+  console.log("a is greater than b");
+}
+else{
+  console.log("a is less than or equal to b");
+}
+// ternary operator.
+
+let a = 10;
+let b = parseInt(prompt("enter b "));
+
+a> b ? console.log("a is greater than b") : a < b?  console.log("a is less than b"): console.log("a is equal to b");
+
