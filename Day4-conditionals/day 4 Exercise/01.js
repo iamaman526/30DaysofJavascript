@@ -49,8 +49,8 @@ if (isNaN(yourAge) || yourAge <= 0) {
 
 // using if else
 
-// let a = 10;
-// let b = parseInt(prompt("enter b "));
+// let a = 4;
+// let b = 3;
 
 if(a>b){
   console.log("a is greater than b");
@@ -60,8 +60,21 @@ else{
 }
 // ternary operator.
 
-let a = 10;
-let b = parseInt(prompt("enter b "));
+let a = 4;
+let b = 3;
 
-a> b ? console.log("a is greater than b") : a < b?  console.log("a is less than b"): console.log("a is equal to b");
+a> b ? console.log(`${a} is greater than ${b}`) : a < b?  console.log("a is less than b"): console.log("a is equal to b");
 
+//4 Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript? 
+
+const number = parseInt(prompt("enter your number"));
+
+ if(number<=1){
+  alert("enter number greater than 1")
+ }
+  else if(number%2==0){
+    console.log(` ${number} is an even number`);
+  }
+  else{
+    console.log(`${number} an odd number`);
+  }
