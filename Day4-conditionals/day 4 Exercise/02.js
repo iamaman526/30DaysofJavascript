@@ -20,7 +20,7 @@ if (score < 0 || score > 100) {
   console.log("you are graded 'F'");
 }
 
-// Check if the season is Autumn, Winter, Spring or Summer. If the user input is :
+//2. Check if the season is Autumn, Winter, Spring or Summer. If the user input is :
 // September, October or November, the season is Autumn.
 // December, January or February, the season is Winter.
 // March, April or May, the season is Spring
@@ -43,4 +43,20 @@ else if (month === "June" || month === "July" || month === "August" ){
 }
 else{
   console.log("enter the correct month");
+}
+
+//3 Check if a day is weekend day or a working day. Your script will take day as an input.
+
+let day = String(prompt("What is the day today"));
+day = day.charAt(0).toUpperCase()  + day.slice(1).toLowerCase()
+
+if(day === "Monday" || day === "Tuesday" || day === "Wednesday" ||day === "Thursday" 
+|| day === "Friday"){
+  console.log(` ${day} is  workday.`);
+}
+else if(day === "Saturday" || day === "Sunday"){
+  console.log(` ${day} is weekend.`);
+}
+else{
+  console.log("enter the correct day");
 }
