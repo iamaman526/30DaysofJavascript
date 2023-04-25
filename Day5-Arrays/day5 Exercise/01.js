@@ -62,8 +62,8 @@ for (let i = 0; i < itCompanies.length; i++) {
 // 11.Change each company name to uppercase one by one and print them out
 
 for (let i = 0; i < itCompanies.length; i++) {
-    console.log(itCompanies[i].toUpperCase());
-  }
+  console.log(itCompanies[i].toUpperCase());
+}
 
 //  let compOne = itCompanies[0].toUpperCase()
 //  console.log(compOne);
@@ -80,7 +80,20 @@ for (let i = 0; i < itCompanies.length; i++) {
 //  let compSeven = itCompanies[6].toUpperCase()
 //  console.log(compSeven);
 
-// 11. Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
+// 12. Print the array like as a sentence: Facebook, Google, Microsoft, Apple, IBM,Oracle and Amazon are big IT companies.
 
-const sentence = itCompanies.slice(0 , 6).join(", ") + ", and " +  itCompanies.slice(6) + " are big IT companies"
+const sentence =
+  itCompanies.slice(0, 6).join(", ") +
+  ", and " +
+  itCompanies.slice(6) +
+  " are big IT companies";
 console.log(sentence);
+
+//13.Check if a certain company exists in the itCompanies array. If it exist return the company else return a company is not found
+
+const compinclude = itCompanies.includes("Google");
+if (compinclude) {
+  console.log("Google");
+} else {
+  console.log("compnay is not found ");
+}
