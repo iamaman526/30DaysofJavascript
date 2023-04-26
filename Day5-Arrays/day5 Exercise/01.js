@@ -97,3 +97,27 @@ if (compinclude) {
 } else {
   console.log("compnay is not found ");
 }
+
+//14. Filter out companies which have more than one 'o' without the filter method
+
+const filteredCompanies = [];
+for (let i = 0; i < itCompanies.length; i++) {
+  const company = itCompanies[i];
+  let count = 0;
+  for (let j = 0; j < company.length; j++) {
+    if (company[j].toLowerCase() === "o") {
+      count++;
+    }
+  }
+  if (count <= 1) {
+    filteredCompanies.push(company);
+  }
+}
+
+console.log(filteredCompanies);
+
+
+// 15.Sort the array using sort() method
+
+  const sortcompnaies =  itCompanies.sort()
+  console.log(sortcompnaies);
