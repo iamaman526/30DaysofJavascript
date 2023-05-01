@@ -116,8 +116,24 @@ for (let i = 0; i < itCompanies.length; i++) {
 
 console.log(filteredCompanies);
 
-
 // 15.Sort the array using sort() method
 
-  const sortcompnaies =  itCompanies.sort()
-  console.log(sortcompnaies);
+const sortcompnaies = itCompanies.sort();
+console.log(sortcompnaies);
+
+// 16. Reverse the array using reverse() method
+
+const reversecomp = itCompanies.reverse();
+console.log(reversecomp);
+
+// 17.Slice out the first 3 companies from the array
+
+const sliceoutcomp = itCompanies.slice(0, 3);
+console.log(sliceoutcomp);
+
+//18. Slice out the last 3 companies from the array?
+
+console.log(itCompanies);
+const slicecomplast = itCompanies.slice(4,7)
+console.log(slicecomplast);
+
