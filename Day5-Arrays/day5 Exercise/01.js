@@ -137,3 +137,7 @@ console.log(itCompanies);
 const slicecomplast = itCompanies.slice(4,7)
 console.log(slicecomplast);
 
+//19. Slice out the middle IT company or companies from the array
+
+const slicecompmiddle = itCompanies.slice(2,5)
+console.log(slicecompmiddle);
