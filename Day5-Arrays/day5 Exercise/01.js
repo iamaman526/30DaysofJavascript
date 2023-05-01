@@ -134,10 +134,20 @@ console.log(sliceoutcomp);
 //18. Slice out the last 3 companies from the array?
 
 console.log(itCompanies);
-const slicecomplast = itCompanies.slice(4,7)
+const slicecomplast = itCompanies.slice(4, 7);
 console.log(slicecomplast);
 
 //19. Slice out the middle IT company or companies from the array
 
-const slicecompmiddle = itCompanies.slice(2,5)
+const slicecompmiddle = itCompanies.slice(2, 5);
 console.log(slicecompmiddle);
+
+//20 Remove the first IT company from the array.
+
+  const removecomp = itCompanies.shift()
+  console.log(removecomp);  // string will pop out as it is stored in the variable.
+  console.log(itCompanies);
+
+  const numbers = [1, 2, 3, 4, 5]
+  numbers.shift() // -> remove one item from the beginning
+  console.log(numbers) 
