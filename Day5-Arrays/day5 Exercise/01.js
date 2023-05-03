@@ -144,10 +144,27 @@ console.log(slicecompmiddle);
 
 //20 Remove the first IT company from the array.
 
-  const removecomp = itCompanies.shift()
-  console.log(removecomp);  // string will pop out as it is stored in the variable.
-  console.log(itCompanies);
+const removecomp = itCompanies.shift();
+console.log(removecomp); // string will pop out as it is stored in the variable.
+console.log(itCompanies);
 
-  const numbers = [1, 2, 3, 4, 5]
-  numbers.shift() // -> remove one item from the beginning
-  console.log(numbers) 
+const numbers = [1, 2, 3, 4, 5];
+numbers.shift(); // -> remove one item from the beginning
+console.log(numbers);
+
+//21.Remove the middle IT company or companies from the array
+
+const middleremove = itCompanies.splice(3, 1);
+// console.log(itCompanies);  removes the spliced array
+// console.log(middleremove); pops out the array spliced
+
+// 22. Remove the last IT company from the array
+
+const remlastcomp = itCompanies.pop();
+console.log(remlastcomp);
+console.log(itCompanies);
+
+// 23.Remove all IT companies
+
+const remallcomp = itCompanies.splice();
+console.log(remallcomp);
