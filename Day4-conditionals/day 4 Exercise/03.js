@@ -40,7 +40,7 @@ let year = parseInt(prompt("Enter the year"));
 console.log(year);
 let monthNamee = String(prompt("Enter the Month name "));
 monthNamee =
-  monthNamee.charAt(0).toUpperCase() + monthNamee.slice(1).toLocaleLowerCase();
+  monthNamee.charAt(0).toUpperCase() + monthNamee.slice(1).toLowerCase();
 
 if (year.toString().length !== 4) {
   alert("enter the correct year");
