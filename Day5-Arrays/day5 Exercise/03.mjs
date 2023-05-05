@@ -31,8 +31,35 @@ console.log(average);
 // const sum = ages.reduce((total, age) => total + age, 0);
 // const average = sum / ages.length;  // another method by using accumalator in reduce method
 
-
 //Find the range of the ages(max minus min)
 
-const range = [ages.length-1] - ages[0]
+const range = ages[ages.length - 1] - ages[0];
 console.log(range);
+
+//Compare the value of (min - average) and (max - average), use abs() method
+
+const compmiv = Math.abs(ages[0] - average); //returns  the absolute +ve value of the no.
+console.log(compmiv);
+
+// 1.Slice the first ten countries from the countries array.
+
+import countries from "./02.mjs/countries.mjs";
+// const slicecount = countries.slice(0, 10);
+// console.log(slicecount);
+
+// 2.Find the middle country(ies) in the countries array
+
+const midcountries = Math.floor(countries.length / 2);
+if (countries.length % 2 === 0) {
+  const getmiddlecountries = [
+    countries[midcountries - 1],
+    countries[midcountries],
+  ];
+  console.log(getmiddlecountries);
+} else {
+  const getmiddlecountry = [countries[midcountries]];
+  console.log(getmiddlecountry);
+}
+
+//3.Divide the countries array into two equal arrays if it is even. If countries array is not even , one more country for the first half.
+
