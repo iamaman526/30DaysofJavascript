@@ -6,11 +6,11 @@ This repository provides a step-by-step guide to learning JavaScript. Each day f
 
 ## Getting Started
 
-- [Day 1: Introduction to JavaScript](#day-1-introduction-to-javascript)
-- [Day 2: Data Types and String Methods](#day-2-data-types-and-string-methods)
-- [Day 3: Booleans, Operators, and Date](#day-3-booleans-operators-and-date)
-- [Day 4: Conditional Statements](#day-4-conditional-statements)
-- [Day 5: Arrays](#day-5-arrays)
+- [Day 1: Introduction to JavaScript](https://github.com/iamaman526/30DaysofJavascript/tree/main/Day1-Intro-to-js)
+- [Day 2: Data Types and String Methods](https://github.com/iamaman526/30DaysofJavascript/tree/main/DAY2-data-types)
+- [Day 3: Booleans, Operators, and Date](https://github.com/iamaman526/30DaysofJavascript/tree/main/DAY3-boolens-operators-date)
+- [Day 4: Conditional Statements](https://github.com/iamaman526/30DaysofJavascript/tree/main/Day4-conditionals)
+- [Day 5: Arrays](https://github.com/iamaman526/30DaysofJavascript/tree/main/Day5-Arrays)
 - [Day 6: Loops](#day-6-loops)
 
 ## Day 1: Introduction to JavaScript
