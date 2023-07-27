@@ -15,7 +15,7 @@ for(initialization, condition, increment/decrement){
 
   For example 
 
-  for(let i = 0; i <= 5; i++){
+  for(let i = 0; i <= 5; i++){ b
     console.log(i)
   }
 

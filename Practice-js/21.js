@@ -13,4 +13,4 @@ let num = 100;
 // console.log(total);
 
 // let total = (num*(num+1))/2;
-// console.log(total);
+// console.log(total);   
